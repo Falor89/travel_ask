@@ -1,0 +1,78 @@
+.chatBox {
+    background-color: #fff;
+    width: 415px;
+}
+
+.chatHeader {
+    height: 98px;
+    padding-left: 26px;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    border-bottom: 1px solid #EBE9E4;
+}
+
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.title {
+    margin: 0;
+}
+
+.about {
+    display: flex;
+    gap: 4px
+}
+
+.textRed {
+    color: #FF4641
+}
+
+.messageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagesContainer {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 388px;
+    max-height: 495px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: fit-content;
+
+}
+
+.messagesContainer::-webkit-scrollbar {
+    width: 3px;
+}
+
+.messagesContainer::-webkit-scrollbar-thumb {
+    background-color: #FF4641;
+}
+
+.messagesContainer::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+.chatBottom {
+    display: flex;
+    gap: 19px;
+    padding: 26px 26px 28px 26px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #EBE9E4;
+}

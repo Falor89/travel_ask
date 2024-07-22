@@ -1,0 +1,16 @@
+.app {
+    background-color: #F9F7F2;
+    width: 100vw;
+    padding: 110px 0 134px 0;
+}
+
+.main {
+    width: 879px;
+    margin: 0 auto;
+    background-color: #F9F7F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

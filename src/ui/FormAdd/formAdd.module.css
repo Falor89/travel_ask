@@ -1,0 +1,21 @@
+.fieldset {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    width: 230px;
+    padding: 16px;
+    border: 1px solid #EBE9E4;
+}
+
+.input:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}

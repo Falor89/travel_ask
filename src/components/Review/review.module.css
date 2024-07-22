@@ -1,0 +1,52 @@
+.section {
+    height: 440px;
+    display: flex;
+    background-color: #fff;
+}
+
+.testText {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25.09px;
+}
+
+.textContainer {
+    margin: 0 auto;
+    align-self: center;
+    padding-left: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hiddenText {
+    display: none;
+}
+
+.visabilityText {
+    position: relative;
+}
+
+.btnToggle {
+    width: max-content;
+    max-width: 111px;
+    height: 26px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.btnToggle:hover {
+    color: #FF4641;
+    border-bottom: #FF4641 solid 1px;
+    transition: all 1s;
+}
+
+.text {
+    margin: 0;
+    padding-bottom: 19px;
+}

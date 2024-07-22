@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 20px;
+    padding-right: 31px;
+    gap: 12px
+}
+
+.paginationDot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #212121;
+    transition: background-color 0.2s ease;
+}
+
+.paginationActive {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FF4641;
+    transition: background-color 0.2s ease;
+}

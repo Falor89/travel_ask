@@ -1,0 +1,99 @@
+.reviewContainer {
+    max-height: 410px;
+    max-width: 300px;
+    margin: 0;
+    padding: 26px 9px 23px 19px;
+    background-color: #F9F7F2;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    cursor: default;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.images {
+    display: flex;
+    gap: 5px;
+    padding-top: 8px;
+}
+
+.image {
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.itemImgCounter {
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.itemImgCounter:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+.par {
+    margin: 0;
+    padding: 0;
+    opacity: 5;
+    font-size: 24px;
+    color: #fff;
+    z-index: 2;
+}
+
+.headerReview {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+
+.textRed {
+    color: #FC4F1E;
+}
+
+.textGray {
+    color: #212121;
+}
+
+.textFooter {
+    color: #9D9D9D;
+    font-size: 11px;
+    line-height: 25px;
+}
+
+.footerReview {
+    display: flex;
+    gap: 11px;
+}
+
+.likeContainer {
+    display: flex;
+    gap: 5px
+}

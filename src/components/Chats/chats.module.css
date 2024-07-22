@@ -1,0 +1,19 @@
+.section {
+    display: flex;
+    gap: 23px;
+    max-width: 879px;
+}
+
+.chatContainer {
+    width: 437px;
+}
+
+.chatContainer:first-of-type {
+    border-right: 2px solid #EBE9E4;
+}
+
+.title {
+    margin: 0;
+    line-height: 34.8px;
+    padding-bottom: 25px;
+}
