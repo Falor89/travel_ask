@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.983baf3f.css",
-    "main.js": "/static/js/main.9cd4fbac.js",
-    "static/media/spanishBigImg.svg": "/static/media/spanishBigImg.5a3bc0cefe5a1ed8d7e7a706e5fe4334.svg",
-    "static/media/likeImg.svg": "/static/media/likeImg.ae4c43e8788b4c4c1d05bc0a6d8f75fb.svg",
-    "index.html": "/index.html",
-    "static/media/btnAdd.svg": "/static/media/btnAdd.d6f4972265ea1f302d79.svg",
-    "static/media/redFlag.svg": "/static/media/redFlag.db9a18d79fe0979f5820e01704421044.svg",
-    "main.983baf3f.css.map": "/static/css/main.983baf3f.css.map",
-    "main.9cd4fbac.js.map": "/static/js/main.9cd4fbac.js.map"
+    "main.css": "/travel_ask/static/css/main.02f55de2.css",
+    "main.js": "/travel_ask/static/js/main.0cbdbad9.js",
+    "static/media/spanishBigImg.svg": "/travel_ask/static/media/spanishBigImg.5a3bc0cefe5a1ed8d7e7a706e5fe4334.svg",
+    "static/media/likeImg.svg": "/travel_ask/static/media/likeImg.ae4c43e8788b4c4c1d05bc0a6d8f75fb.svg",
+    "index.html": "/travel_ask/index.html",
+    "static/media/btnAdd.svg": "/travel_ask/static/media/btnAdd.d6f4972265ea1f302d79.svg",
+    "static/media/redFlag.svg": "/travel_ask/static/media/redFlag.db9a18d79fe0979f5820e01704421044.svg",
+    "main.02f55de2.css.map": "/travel_ask/static/css/main.02f55de2.css.map",
+    "main.0cbdbad9.js.map": "/travel_ask/static/js/main.0cbdbad9.js.map"
   },
   "entrypoints": [
-    "static/css/main.983baf3f.css",
-    "static/js/main.9cd4fbac.js"
+    "static/css/main.02f55de2.css",
+    "static/js/main.0cbdbad9.js"
   ]
 }
